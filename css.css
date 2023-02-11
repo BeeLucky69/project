@@ -26,6 +26,7 @@ body {
     padding-left: 20px;
     padding-top: 10px;
     color: white;
+    transition: all 0.2s;
 }
 
 .link1 {
@@ -121,4 +122,34 @@ body {
 
 .text6 {
     padding-top: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+  
+ul li a {
+    color: white;
+    display: none;
+}
+
+ul li:hover a {
+    display: block;
+}
+
+.ul1 {
+    float: right;
+}
+
+.li1 {
+    margin-top: -35px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.ul2 {
+    width: 50px;
 }
